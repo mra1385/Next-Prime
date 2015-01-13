@@ -20,6 +20,8 @@
  
 # Do your coding here
 
+n = raw_input("What is your number? ")
+n = int(n)
 
 def is_prime(n):
     if n <= 1:
@@ -41,3 +43,5 @@ def print_next_prime(n):
 		elif is_prime(number):
 			print(number)
 			break
+
+print_next_prime(n)
